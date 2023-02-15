@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Formulario</h2>
+    <form name="cadastro_do_cliente" method="post" action="grava.jsp">
+    Nome: <input type="text" name="txtnome" size="50" maxlength="40">
+    <br>
+    Senha: <input type="password" name="txtsenha">
+
+    <br>
+    mensagem:
+    <br>
+
+    <textarea name="mensagem" cols="40" rows="6"></textarea>
+    <br>
+    Sexo:
+    <input type="radio" name="sexo" value="M">Masculino
+    <input type="radio" name="sexo" value="F">Feminino
+     <br>
+     <input type="checkbox" name="revista" value="1">Exame   
+     <input type="checkbox" name="revista" value="1">Info
+     <input type="checkbox" name="revista" value="1">veja
+     <input type="date" name="data">
+     <input type="time" name="hora">
+     <input type="submit" value="enviar">
+     <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
