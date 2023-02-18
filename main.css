@@ -124,9 +124,25 @@ section h1 {
     font-size: 3.5rem;
 }
 
-section li {
-    font-size: 1.4rem;
+.con1{
+    font-size: 30px;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: 17px;
+    align-items: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
 }
 
+.con2{
+    background: #708090;
+    height: 1930px;
+}
+
+section iframe{
+    margin-left: 900px;
+    margin-top: 100px;
+    height: 650px;
+    width: 650px;
+}
