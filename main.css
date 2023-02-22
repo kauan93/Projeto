@@ -8,7 +8,7 @@
     margin-right: 50px;
     display: flex;
     flex-direction: row;
-    gap: 130px;
+    gap: 60px;
 
 }
 
@@ -177,6 +177,14 @@ section iframe{
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
 }
+.final img {
+  margin-top: .5rem;
+  margin-left: 1.1rem;
+  width: 48px;
+}
+
 .fim{
  background: #B0C4DE;
+ overflow-y: hidden;
 }
+
